@@ -1,0 +1,28 @@
+name: cbz_pdf_tools
+description: Offline app to convert CBZ to PDF, merge PDFs (quick/advanced), and rename. Material 3 UI.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: any
+  path_provider: any
+  open_filex: any
+  share_plus: any
+  file_saver: any
+  archive: any
+  pdf: any
+  native_pdf_renderer: any
+  reorderables: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
