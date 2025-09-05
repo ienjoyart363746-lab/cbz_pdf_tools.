@@ -9,15 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  file_picker: any
-  path_provider: any
-  open_filex: any
-  share_plus: any
-  file_saver: any
-  archive: any
-  pdf: any
-  native_pdf_renderer: any
-  reorderables: any
+  file_picker: ^6.0.0
+  path_provider: ^2.0.18
+  open_filex: ^4.5.2
+  share_plus: ^8.0.0
+  file_saver: ^0.0.6
+  archive: ^4.0.7
+  pdf: ^3.11.3
+  native_pdf_renderer: ^5.0.0+1
+  reorderables: ^0.4.2
 
 dev_dependencies:
   flutter_test:
